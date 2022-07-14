@@ -1,0 +1,26 @@
+Git é um sistema de controle de versão de arquivos. Através deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo,
+editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas.
+
+Comandos Iniciais
+
+Primeiro passo é criar uma pasta no local desejado e colocar/criar os arquivos desejados dentro dela. Quando os arquivos estiverem prontos para subir para o controle de versão basta seruir 
+os passos abaixo!
+
+-> git init => A execução desse comando cria um novo subdiretório. git no diretório de trabalho atual. Essa ação também vai criar uma ramificação principal.
+-> git add "nome do arquivo" => Adiciona o arquivo selecionado no controle de versão ... OU git add . => Adiciona todos os arquivos no controle de versão.
+-> git status => Mostra o status do arquivo dentro do git.
+-> git commit -m "mensagem" => cria a primeira versão dos arquivos. 
+(
+se estiver usando o comando 'git commit -m "mensagem"' pela primeira vez, será necessário configurar o git com email/name.
+git config --global user.email "you@example.com".
+git config --global user.name "your name".
+após configurar com suas credenciais digite 'git remote add origin <link do repositório desejado no git hub>'.
+)
+-> git push => Cria a primeira versão do arquivo dentro do git.
+
+Comandos Avançados
+
+-> git reflog => Mostra o histórico de versões que foram adicionadas
+-> git reset --hard <número da versão> => Permite voltar a uma versão do anterior da atual (navegar entre versões)
+
+
