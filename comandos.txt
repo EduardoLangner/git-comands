@@ -17,6 +17,7 @@ git config --global user.name "your name".
 após configurar com suas credenciais digite 'git remote add origin <link do repositório desejado no git hub>'.
 )
 -> git push => Cria a primeira versão do arquivo dentro do git.
+-> git pull => Atualiza o arquivo para a versão mais recente.
 
 CCOMANDO AVANÇADOS
 
@@ -34,4 +35,17 @@ um merge para essa branch atualizar o arquivo principal.
 
 OBS: quando uma branch nova é criada, no momento de dar o push na branch será solicitado um comando extra para poder subi-la a nuvem. 
 git push --set-upstream origin <nome da branch>
+
+MERGE
+
+Quando se deseja unificar branchs (código dentro delas) se faz um merge. Um merge é uma atualização do código de uma branch secundária para o código fonte.
+O primeiro passo é entrar na branch Original (que contém o código que vai receber as atualizações).
+-> git merge <nome da branch que contém o código atualizado>
+
+GITIGNORE
+
+Nesse arquivo são colocados outros arquivos que voc~e não deseja commitar junto com outros arquivos.
+Primeiro precisa criar um arquivo chamado <.gitignore>.
+dentro desse arquivo basta colocar os arquivos que serão ignorados 
+
 
