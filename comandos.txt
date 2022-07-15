@@ -18,6 +18,7 @@ após configurar com suas credenciais digite 'git remote add origin <link do rep
 )
 -> git push => Cria a primeira versão do arquivo dentro do git.
 -> git pull => Atualiza o arquivo para a versão mais recente.
+-> git remote add origin <url> => Muda/define o repositório desejado no git
 
 CCOMANDO AVANÇADOS
 
